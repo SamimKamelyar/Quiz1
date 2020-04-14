@@ -3,6 +3,7 @@
 const utils = {
   trends(clucks) {
     let trends = {};
+    
     // Looping through each cluck entry
     for (let i = 0; i < clucks.length; i++) {
       console.log(clucks[i])
@@ -10,8 +11,10 @@ const utils = {
 
       //Looping through each word in cluck content 
       for (let word of cluck) {
+        
         // Finding hashtags
         if (word.includes('#')) {
+          
           // If word isn't in trends object yet
           if (trends[word]) {
             trends[word] += 1
