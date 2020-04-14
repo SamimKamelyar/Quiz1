@@ -1,0 +1,8 @@
+Create a new git project, but not push it to Github yet.
+Generate and commit your package.json.
+Checkout a new branch named solution, then write the rest of your code in this branch.
+Create a new repository on Github.
+Push your master and solution branch to Github.
+Logging middleware installed and setup.
+Nodemon tool installed as a developement dependency and made useable as a NPM script.
+Static assets middleware setup.
